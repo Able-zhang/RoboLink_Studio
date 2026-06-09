@@ -1,0 +1,368 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/VS2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35217 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-750mnj"
+      binary: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-750mnj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-750mnj'
+        
+        Run Build Command(s): D:/Qt_Creater/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_2ae7f\\fast
+        jom: parallel job execution disabled for Makefile
+        	D:\\Qt_Creater\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_2ae7f.dir\\build.make /nologo -L CMakeFiles\\cmTC_2ae7f.dir\\build
+        Building CXX object CMakeFiles/cmTC_2ae7f.dir/CMakeCXXCompilerABI.cpp.obj
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_2ae7f.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-750mnj --filter-prefix="扅鶓??: ???畱??劘?  " -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\38449\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.26984.0.jom
+        CMakeCXXCompilerABI.cpp
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  D:\\Qt_Creater\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCompilerABI.h
+        Linking CXX executable cmTC_2ae7f.exe
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_2ae7f.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2ae7f.dir\\objects1.rsp @C:\\Users\\38449\\AppData\\Local\\Temp\\cmTC_2ae7f.exe.26984.406.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_2ae7f.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_2ae7f.dir/embed.manifest
+        RC Pass 1:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2ae7f.dir/manifest.res CMakeFiles\\cmTC_2ae7f.dir/manifest.rc
+        LINK Pass 1:
+        D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2ae7f.dir\\objects1.rsp /out:cmTC_2ae7f.exe /implib:cmTC_2ae7f.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-750mnj\\cmTC_2ae7f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2ae7f.dir/intermediate.manifest CMakeFiles\\cmTC_2ae7f.dir/manifest.res
+        MT:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_2ae7f.dir/intermediate.manifest /out:CMakeFiles\\cmTC_2ae7f.dir/embed.manifest /notify_update
+        RC Pass 2:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_2ae7f.dir/manifest.res CMakeFiles\\cmTC_2ae7f.dir/manifest.rc
+        FINAL LINK:
+        D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_2ae7f.dir\\objects1.rsp /out:cmTC_2ae7f.exe /implib:cmTC_2ae7f.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-750mnj\\cmTC_2ae7f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2ae7f.dir/intermediate.manifest CMakeFiles\\cmTC_2ae7f.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/VS2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/VS2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:252 (find_package)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:20 (find_dependency)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-4tlo7h"
+      binary: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-4tlo7h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-4tlo7h'
+        
+        Run Build Command(s): D:/Qt_Creater/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_c4b3c\\fast
+        jom: parallel job execution disabled for Makefile
+        	D:\\Qt_Creater\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_c4b3c.dir\\build.make /nologo -L CMakeFiles\\cmTC_c4b3c.dir\\build
+        Building CXX object CMakeFiles/cmTC_c4b3c.dir/src.cxx.obj
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_c4b3c.dir\\src.cxx.obj.d --working-dir=E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4tlo7h --filter-prefix="扅鶓??: ???畱??劘?  " -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\38449\\AppData\\Local\\Temp\\src.cxx.obj.26704.0.jom
+        src.cxx
+        E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4tlo7h\\src.cxx(1): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory
+        jom: E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4tlo7h\\CMakeFiles\\cmTC_c4b3c.dir\\build.make [CMakeFiles\\cmTC_c4b3c.dir\\src.cxx.obj] Error 2
+        jom: E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4tlo7h\\Makefile [cmTC_c4b3c\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:252 (find_package)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:20 (find_dependency)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-sorv3u"
+      binary: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-sorv3u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-sorv3u'
+        
+        Run Build Command(s): D:/Qt_Creater/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_0a1ea\\fast
+        jom: parallel job execution disabled for Makefile
+        	D:\\Qt_Creater\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_0a1ea.dir\\build.make /nologo -L CMakeFiles\\cmTC_0a1ea.dir\\build
+        Building CXX object CMakeFiles/cmTC_0a1ea.dir/CheckFunctionExists.cxx.obj
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_0a1ea.dir\\CheckFunctionExists.cxx.obj.d --working-dir=E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sorv3u --filter-prefix="扅鶓??: ???畱??劘?  " -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\38449\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.28552.0.jom
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_0a1ea.exe
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0a1ea.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_0a1ea.dir\\objects1.rsp @C:\\Users\\38449\\AppData\\Local\\Temp\\cmTC_0a1ea.exe.28552.62.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_0a1ea.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_0a1ea.dir/embed.manifest
+        RC Pass 1:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_0a1ea.dir/manifest.res CMakeFiles\\cmTC_0a1ea.dir/manifest.rc
+        LINK Pass 1:
+        D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_0a1ea.dir\\objects1.rsp /out:cmTC_0a1ea.exe /implib:cmTC_0a1ea.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sorv3u\\cmTC_0a1ea.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0a1ea.dir/intermediate.manifest CMakeFiles\\cmTC_0a1ea.dir/manifest.res
+        LINK Pass 1: command "D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_0a1ea.dir\\objects1.rsp /out:cmTC_0a1ea.exe /implib:cmTC_0a1ea.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sorv3u\\cmTC_0a1ea.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0a1ea.dir/intermediate.manifest CMakeFiles\\cmTC_0a1ea.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”
+        jom: E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sorv3u\\CMakeFiles\\cmTC_0a1ea.dir\\build.make [cmTC_0a1ea.exe] Error 2
+        jom: E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sorv3u\\Makefile [cmTC_0a1ea\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:252 (find_package)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:20 (find_dependency)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-7me4ll"
+      binary: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-7me4ll"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-7me4ll'
+        
+        Run Build Command(s): D:/Qt_Creater/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_a9988\\fast
+        jom: parallel job execution disabled for Makefile
+        	D:\\Qt_Creater\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_a9988.dir\\build.make /nologo -L CMakeFiles\\cmTC_a9988.dir\\build
+        Building CXX object CMakeFiles/cmTC_a9988.dir/CheckFunctionExists.cxx.obj
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a9988.dir\\CheckFunctionExists.cxx.obj.d --working-dir=E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7me4ll --filter-prefix="扅鶓??: ???畱??劘?  " -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\38449\\AppData\\Local\\Temp\\CheckFunctionExists.cxx.obj.26812.0.jom
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_a9988.exe
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a9988.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9988.dir\\objects1.rsp @C:\\Users\\38449\\AppData\\Local\\Temp\\cmTC_a9988.exe.26812.78.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_a9988.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a9988.dir/embed.manifest
+        RC Pass 1:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a9988.dir/manifest.res CMakeFiles\\cmTC_a9988.dir/manifest.rc
+        LINK Pass 1:
+        D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9988.dir\\objects1.rsp /out:cmTC_a9988.exe /implib:cmTC_a9988.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7me4ll\\cmTC_a9988.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a9988.dir/intermediate.manifest CMakeFiles\\cmTC_a9988.dir/manifest.res
+        LINK Pass 1: command "D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9988.dir\\objects1.rsp /out:cmTC_a9988.exe /implib:cmTC_a9988.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7me4ll\\cmTC_a9988.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a9988.dir/intermediate.manifest CMakeFiles\\cmTC_a9988.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib”
+        jom: E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7me4ll\\CMakeFiles\\cmTC_a9988.dir\\build.make [cmTC_a9988.exe] Error 2
+        jom: E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7me4ll\\Makefile [cmTC_a9988\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "D:/Qt_Creater/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-83r18u"
+      binary: "E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-83r18u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt_Creater/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/RoboLink/RoboLinkStudio/RoboLinkStudio/build/Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-83r18u'
+        
+        Run Build Command(s): D:/Qt_Creater/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_6f4fb\\fast
+        jom: parallel job execution disabled for Makefile
+        	D:\\Qt_Creater\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_6f4fb.dir\\build.make /nologo -L CMakeFiles\\cmTC_6f4fb.dir\\build
+        Building CXX object CMakeFiles/cmTC_6f4fb.dir/src.cxx.obj
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_6f4fb.dir\\src.cxx.obj.d --working-dir=E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-83r18u --filter-prefix="扅鶓??: ???畱??劘?  " -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe @C:\\Users\\38449\\AppData\\Local\\Temp\\src.cxx.obj.29692.0.jom
+        src.cxx
+        娉ㄦ剰: 鍖呭惈鏂囦欢:  D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\atomic
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\yvals.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\yvals_core.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vcruntime.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\sal.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\concurrencysal.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vadefs.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xkeycheck.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\crtdbg.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vcruntime_new_debug.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vcruntime_new.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\crtdefs.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\use_ansi.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\cstddef
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\stddef.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xtr1common
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\cstdint
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\stdint.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\cstring
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\string.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_memory.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_memcpy_s.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\errno.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vcruntime_string.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_wstring.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xatomic.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\type_traits
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\intrin0.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\intrin0.inl.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:   D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xthreads.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_threads_core.hpp
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\climits
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\limits.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:    D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xtimec.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:     D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\ctime
+        娉ㄦ剰: 鍖呭惈鏂囦欢:      D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\time.h
+        娉ㄦ剰: 鍖呭惈鏂囦欢:       D:\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_wtime.h
+        Linking CXX executable cmTC_6f4fb.exe
+        	D:\\Qt_Creater\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6f4fb.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests -- D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_6f4fb.dir\\objects1.rsp @C:\\Users\\38449\\AppData\\Local\\Temp\\cmTC_6f4fb.exe.29692.109.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_6f4fb.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_6f4fb.dir/embed.manifest
+        RC Pass 1:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_6f4fb.dir/manifest.res CMakeFiles\\cmTC_6f4fb.dir/manifest.rc
+        LINK Pass 1:
+        D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_6f4fb.dir\\objects1.rsp /out:cmTC_6f4fb.exe /implib:cmTC_6f4fb.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-83r18u\\cmTC_6f4fb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6f4fb.dir/intermediate.manifest CMakeFiles\\cmTC_6f4fb.dir/manifest.res
+        MT:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_6f4fb.dir/intermediate.manifest /out:CMakeFiles\\cmTC_6f4fb.dir/embed.manifest /notify_update
+        RC Pass 2:
+        D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_6f4fb.dir/manifest.res CMakeFiles\\cmTC_6f4fb.dir/manifest.rc
+        FINAL LINK:
+        D:\\VS2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_6f4fb.dir\\objects1.rsp /out:cmTC_6f4fb.exe /implib:cmTC_6f4fb.lib /pdb:E:\\RoboLink\\RoboLinkStudio\\RoboLinkStudio\\build\\Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-83r18u\\cmTC_6f4fb.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6f4fb.dir/intermediate.manifest CMakeFiles\\cmTC_6f4fb.dir/manifest.res
+        
+      exitCode: 0
+...
